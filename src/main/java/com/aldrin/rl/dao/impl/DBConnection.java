@@ -25,7 +25,7 @@ public class DBConnection {
 //                        MySQL
                         String url = "jdbc:mysql://localhost:3306/template";
                         Class.forName("com.mysql.cj.jdbc.Driver");
-                        setCon(DriverManager.getConnection(url, "root", "aldrin"));
+                        setCon(DriverManager.getConnection(url, "root", ""));
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
